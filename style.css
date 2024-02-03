@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #0f1624;
+  font-family: Poppins;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 20px;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border: none;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  opacity: 0.5;
+}
+
+.about h1 {
+  text-align: left;
+  padding: 10px;
+  width: fit-content;
+  margin-left: 130px;
+  margin-top: 180px;
+  background: -webkit-linear-gradient(90deg, #945dd6, #13adc7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about p {
+  color: rgb(231, 229, 229);
+  text-align: left;
+  padding: 10px;
+  width: 50vw;
+  margin-left: 150px;
+}
+
+.about button {
+  border: 1px solid transparent;
+  border-radius: 31px;
+  padding: 12px;
+  margin-left: 170px;
+  width: 130px;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.about img {
+  float: right;
+  border-radius: 10px;
+  margin: -80px 120px 0px 10px;
+}
+
+.about button:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 110px;
+  padding: 30px;
+  margin-top: 115px;
+  background: -webkit-linear-gradient(90deg, #945dd6, #13adc7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+
+.projects2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+}
+
+.project1 {
+  border: 2px solid gray;
+  width: 30vw;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 7px 3px gray;
+  margin-bottom: 130px;
+  margin-top: 50px;
+}
+
+.project1 img {
+  width: 28vw;
+  height: 210px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+/* .project1 h3 {
+    border-bottom: 2px solid;
+    border-color: linear-gradient(90deg, #945DD6, #13ADC7);
+} */
+
+.project1 p {
+  text-align: left;
+  padding: 20px;
+}
+
+.project1 button {
+  border: 1px solid transparent;
+  border-radius: 31px;
+  padding: 12px;
+  margin-left: -190px;
+  width: 130px;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.project1 button:hover {
+  opacity: 0.7;
+}
+
+hr {
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.tech h1 {
+  margin-top: 0;
+}
+
+.tech .p1 {
+  margin-left: 250px;
+  font-size: large;
+  margin-top: 55px;
+}
+
+.tech .p2 {
+  float: right;
+  margin-top: -13px;
+  margin-right: 277px;
+  font-size: small;
+}
+
+.boxes {
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 61vw;
+  border-radius: 10px;
+  height: 15px;
+  margin-left: 240px;
+  margin-top: 8px;
+  background-color: #162950;
+  position: absolute;
+}
+
+.box1 {
+  width: 45vw;
+  border-radius: 10px;
+  height: 15px;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+}
+
+.box2 {
+  width: 36vw;
+  border-radius: 10px;
+  height: 15px;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+}
+
+.box3 {
+  width: 20vw;
+  border-radius: 10px;
+  height: 15px;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: relative;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+}
+
+.extra {
+  margin-top: 80px;
+  margin-left: 165px;
+}
+
+.extra p {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.extra ul {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.extra ul li {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#about h1 {
+  margin-top: 82px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.container {
+  padding: 10px 10px;
+  position: relative;
+  width: 30%;
+  background: linear-gradient(90deg, #945dd6, #13adc7);
+}
+
+.content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.left {
+  left: 231px;
+}
+
+.right {
+  left: 51%;
+}
+
+.container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+
+.right img {
+  left: -20px;
+}
+
+/* .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100;
+    }
+} */
+
+.content h2 {
+  font-weight: 600;
+}
+
+.content p {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* .left-container-arrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 24px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid white;
+    right: 10px;
+} */
+
+footer {
+  display: flex;
+  margin: 80px 0px 30px 250px;
+  gap: 80px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+footer ul a:hover {
+  opacity: 0.5;
+}
+
+#top {
+  margin: 90px 0px 30px -440px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    display: contents;
+    text-align: center;
+  }
+
+  .main ul li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .about h1 {
+    margin-left: 13px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .about p {
+    margin-left: 45px;
+    margin-right: 10px;
+    width: 70vw;
+    text-align: justify;
+  }
+
+  .about img {
+    margin: 50px 55px 20px 0px;
+  }
+
+  .about button {
+    margin-left: 140px;
+  }
+
+  h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .projects {
+    display: grid;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .projects2 {
+    display: grid;
+    margin: 180px 0px 0px 0px;
+  }
+
+  .project1 {
+    width: 80vw;
+    margin-bottom: -80px;
+  }
+
+  .project1 img {
+    width: 75vw;
+  }
+
+  .project1 p {
+    text-align: justify;
+  }
+
+  .project1 button {
+    margin-left: 10px;
+  }
+
+  hr {
+    margin-left: 80px;
+  }
+
+  #about h1 {
+    margin-top: 25px;
+  }
+
+  .tech h1 {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .tech .p1 {
+    margin-left: 70px;
+  }
+
+  .tech .p2 {
+    float: right;
+    margin-right: 70px;
+  }
+
+  .tech .box {
+    margin-left: 70px;
+    width: 290px;
+  }
+
+  .extra p {
+    margin-left: -95px;
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  .extra ul {
+    margin-left: -35px;
+  }
+
+  .container {
+    margin-left: -140px;
+    width: 250px;
+  }
+
+  .left img {
+    left: -55px;
+  }
+
+  .right {
+    left: 231px;
+  }
+
+  .right img {
+    left: -56px;
+  }
+
+  footer {
+    display: contents;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer a {
+    margin-left: 60px;
+  }
+
+  footer div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+}
