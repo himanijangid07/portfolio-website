@@ -14,3 +14,11 @@ body {
     bottom: 30px;
     z-index: 99;
 }
+
+.border-bottom {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
